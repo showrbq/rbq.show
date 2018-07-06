@@ -42,7 +42,7 @@ img{vertical-align:middle}
 .single_project:hover div.project_overlay{transform:scale(1)}
 #banner{background-attachment:fixed;background-color:#272833;background-image:url(../img/loli.jpg);background-position:center center;background-size:cover;box-shadow:0 .25em .5em 0 rgba(0,0,0,.25);min-height:100vh;position:relative;text-align:center;z-index:21}
 #banner:before{content:'';display:inline-block;height:100vh;vertical-align:middle;width:1%}
-#banner:after{background-image:-webkit-linear-gradient(top,rgba(23,24,32,.75),rgba(23,24,32,.65)),url(../img/overlay.png);background-image:linear-gradient(top,rgba(23,24,32,.95),rgba(23,24,32,.95)),url(../img/overlay.png);content:'';display:block;height:100%;left:0;position:absolute;top:0;width:100%}
+#banner:after{background-image:-webkit-linear-gradient(top,rgba(23,24,32,.75),rgba(23,24,32,.65));background-image:linear-gradient(top,rgba(23,24,32,.95),rgba(23,24,32,.95));content:'';display:block;height:100%;left:0;position:absolute;top:0;width:100%}
 #banner .content{margin-right:1%;max-width:95%;padding:6em;position:relative;text-align:right;z-index:1}
 #banner .content,#banner .content header{display:inline-block;vertical-align:middle}
 #banner .content header h2{font-size:2.5em;margin:0}

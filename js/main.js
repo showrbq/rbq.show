@@ -12,32 +12,23 @@ window.onload = function(){
     demo.setOptions({
         sentences:[{
             ch:[{
-                pause:2000
-                },"欢迎","来到","狗站♂"],
-            py:["","huanying","laidao","gouzhan","♂"],
+                pause:500
+                },"欢迎","来到","狗子","的","绒布球","♂","展示站"],
+            py:["","huanying","laidao","gouzi","de","roubianqi\b\b\b\b\b\b\b\b\brongbuqiu","♂","zhanshizhan"], // 用"\b" 来删除一个字符
         },{
-            ch:["狗子","是一只","不正经","の犬"],
-            py:["gouzi", "shiyizhi", "zhengjing\b\b\b\b\b\b\b\b\bbuzhengjing", "dequan"], // 用"\b" 来删除一个字符
+            ch:["狗子","是很","“纯洁”","的"],
+            py:["gouzi", "shihen", "hentai\b\b\b\b\b\bchunjie", "de"],
         },{
-            ch:["只", "喜欢", "小萝莉", "o(*￣▽￣*)ブ"],
-            py:["zhi", "xihuan", "littleloli", "o(*￣▽￣*)ブ"],
+            ch:["只", "喜欢", "小萝莉", " #痴汉笑"],
+            py:["zhi", "xihuan", "littleloli", "%#&*@!"],
         },{
-            ch:["让","我们","成为","好朋友吧","心","\b","❤"], // 用"\b" 来删除一个字符
-            py:[
-                ["成为本犬のRBQ吧#(滑稽)",{
-                    pause: 281
-                },{
-                    del: 14
-                },""],"women","chengwei","haopengyou","xin","","xin"
-            ],
-        },{
-            ch:["立即","联系♂狗子","吧","~"],
-            py:["liji","lianxigouzi","ba","~"]
+            ch:["成为","我的","绒布球","吧","心","\b","❤"],
+            py:["chengwei","wode","roubianqi\b\b\b\b\b\b\b\b\brongbuqiu","ba","xin","","xin"],
         }],
-        startDelay:1000,
+        startDelay:500,
         typeSpeed:100,
         pause:1000,
-        backSpeed:60,
+        backSpeed:80,
         cursorChar:"|",
         loop:false,
     });
